@@ -1,0 +1,5 @@
+feature_set,n_features,roc_auc,average_precision,recall
+Full (with SPHEQ),15,0.87,0.593,0.788
+Только SPHEQ,1,0.861,0.573,0.754
+Без SPHEQ (low-cost),14,0.677,0.263,0.599
+Образ жизни + наследственность,9,0.672,0.262,0.601

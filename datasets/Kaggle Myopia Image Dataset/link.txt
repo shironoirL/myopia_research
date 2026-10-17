@@ -1,0 +1,3 @@
+Kaggle: Myopia Image Dataset
+
+https://www.kaggle.com/datasets/kellysanderson/myopia-image-dataset

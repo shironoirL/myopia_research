@@ -1,0 +1,29 @@
+[project]
+name = "myopia-research"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "KhalilovVR",email = "KhalilovVR@mosreg.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyterlab>=4.0",
+    "ipykernel>=6.0",
+    "nbformat>=5.0",
+    "nbclient>=0.10",
+    "kagglehub (>=1.0.1,<2.0.0)",
+    "kagglesdk>=0.1.22,<0.1.24",
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "scikit-learn>=1.4",
+    "openpyxl>=3.1",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+package-mode = false

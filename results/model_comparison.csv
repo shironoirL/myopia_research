@@ -1,0 +1,5 @@
+model,roc_auc_mean,roc_auc_std,average_precision_mean,average_precision_std,recall_mean,recall_std,precision_mean,precision_std,f1_mean,f1_std
+LogReg (balanced),0.87,0.043,0.593,0.104,0.788,0.077,0.379,0.059,0.51,0.06
+RandomForest,0.839,0.045,0.475,0.096,0.079,0.057,0.582,0.393,0.136,0.095
+GradBoosting,0.833,0.046,0.495,0.104,0.333,0.1,0.533,0.141,0.4,0.097
+HistGB,0.824,0.048,0.468,0.103,0.316,0.098,0.537,0.171,0.386,0.1

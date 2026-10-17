@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+.idea/
 # Distribution / packaging
 .Python
 build/
@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===== myopia_research =====
+# Крупные открытые данные (~8 ГБ) — в git не кладём, скачиваются заново (см. DATA_SOURCES.md)
+datasets/gwas/
+# Бинарники PLINK — скачиваются заново (см. DATA_SOURCES.md)
+tools/
+# Локальные настройки Claude Code
+.claude/settings.local.json
+# Чужой репозиторий (github.com/fumiya-kume/claude-code), к проекту не относится
+claude-code/

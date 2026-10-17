@@ -1,0 +1,494 @@
+Проект: myopia_research
+Дата заметки: 2026-05-28
+
+Тема работы
+===========
+
+Рабочая формулировка:
+
+    Математическое моделирование, прогнозирование развития и оценка эффективности
+    профилактики миопии среди детского населения на основе информационных технологий.
+
+Главная идея:
+
+    Не строить одну "самую точную модель" на одном датасете, а собрать
+    воспроизводимый информационно-аналитический пайплайн:
+
+    1. прогноз индивидуального риска развития миопии;
+    2. интерпретация факторов риска;
+    3. внешняя проверка факторов на популяционных данных;
+    4. оценка контроля прогрессирования/вмешательства;
+    5. сценарная оценка профилактических факторов;
+    6. причинно-ориентированная проверка части факторов через Mendelian randomization.
+
+
+Локальные данные
+================
+
+В проекте есть:
+
+    myopia.csv
+    datasets/nhanes
+    datasets/Orthokeratology  0.01 Atropine
+    datasets/Physical activity sedentary behaviour sleep myopia
+    datasets/Kaggle Myopia Image Dataset
+    datasets/Myopia images
+
+
+1. OLSM / myopia.csv
+--------------------
+
+Основной табличный датасет для первой ML-части.
+
+Размер:
+
+    618 строк
+    18 колонок
+
+Целевая переменная:
+
+    MYOPIC
+
+Баланс классов:
+
+    MYOPIC = 0: около 87%
+    MYOPIC = 1: около 13%
+
+Признаки:
+
+    AGE, GENDER
+    SPHEQ
+    AL, ACD, LT, VCD
+    SPORTHR, READHR, COMPHR, STUDYHR, TVHR, DIOPTERHR
+    MOMMY, DADMY
+
+Роль в работе:
+
+    Основной датасет для прогноза риска развития миопии и сравнения ML-моделей.
+
+Особенность:
+
+    Файл разделен точкой с запятой, поэтому читать нужно через sep=None
+    или sep=";".
+
+
+2. NHANES
+---------
+
+Папка:
+
+    datasets/nhanes
+
+Файлы:
+
+    VIX_E.xpt      vision examination
+    DEMO_E.xpt     demographics
+    BMX_E.xpt      body measurements / BMI
+    DR1TOT_E.xpt   nutrition
+    PAQ_E.xpt      physical activity
+
+Формат:
+
+    SAS Transport .xpt
+
+Чтение:
+
+    pd.read_sas(path, format="xport")
+
+Ключ объединения:
+
+    SEQN
+
+Роль в работе:
+
+    Внешний популяционный источник для проверки ассоциаций и факторов риска:
+
+    - возраст;
+    - пол;
+    - BMI;
+    - питание;
+    - физическая активность;
+    - показатели зрения/рефракции.
+
+Ограничение:
+
+    Это не longitudinal dataset. Он полезен для популяционного анализа,
+    но не заменяет продольное наблюдение развития миопии.
+
+
+3. Orthokeratology + 0.01% Atropine
+-----------------------------------
+
+Папка:
+
+    datasets/Orthokeratology  0.01 Atropine
+
+Файл:
+
+    Dataset (Kinoshita).xlsx
+
+Роль в работе:
+
+    Блок оценки контроля прогрессирования миопии / эффективности вмешательства.
+
+Возможные outcomes:
+
+    - изменение axial length;
+    - axial elongation за период наблюдения;
+    - изменение visual acuity;
+    - связь compliance с эффектом.
+
+Особенность:
+
+    Excel имеет сложную шапку. В notebook сделана очистка:
+    многоуровневые заголовки превращаются в обычные колонки.
+    Таблица ближе к формату "одна строка = один глаз", потому что есть Eye = R/L.
+
+
+4. Physical activity / sedentary behaviour / sleep / myopia
+-----------------------------------------------------------
+
+Папка:
+
+    datasets/Physical activity sedentary behaviour sleep myopia
+
+Файлы:
+
+    JBI.pdf
+    PALX.pdf
+    near work.pdf
+    screen.pdf
+    sleep.pdf
+
+Роль в работе:
+
+    Не основной ML-датасет, а доказательная и литературная база профилактических факторов:
+
+    - физическая активность;
+    - near work;
+    - screen time;
+    - сон;
+    - sedentary behaviour.
+
+Использование:
+
+    - литературный обзор;
+    - обоснование выбора признаков;
+    - обоснование профилактических сценариев;
+    - сопоставление результатов ML с данными systematic review/meta-analysis.
+
+
+5. Kaggle image datasets
+------------------------
+
+Папки:
+
+    datasets/Kaggle Myopia Image Dataset
+    datasets/Myopia images
+
+Сейчас по структуре там видны link.txt, сами изображения могут быть не скачаны
+или не распакованы.
+
+Роль, если подключать:
+
+    Optional computer vision блок:
+
+    - normal vs myopia по fundus images;
+    - pathological myopia detection;
+    - демонстрация применения информационных технологий в офтальмологии.
+
+Ограничение:
+
+    Это может увести работу в сторону диагностики патологической миопии,
+    а основная тема сейчас - прогноз и профилактика детской миопии.
+    Поэтому CV-блок лучше держать как перспективу или дополнительный модуль,
+    а не как центр диссертации.
+
+
+Созданные notebook-файлы
+========================
+
+1. sss.ipynb
+------------
+
+Основной notebook по OLSM / myopia.csv.
+
+Содержит:
+
+    - загрузку локального myopia.csv;
+    - корректное чтение semicolon-separated CSV;
+    - EDA;
+    - словарь признаков;
+    - визуализацию;
+    - baseline Logistic Regression;
+    - гибридную модель:
+
+          Logistic Regression + GradientBoostingRegressor по остаткам
+
+      Формула:
+
+          residual = y_true - p_linear
+          p_hybrid = clip(p_linear + alpha * residual_correction, 0, 1)
+
+    - подбор alpha через cross-validation;
+    - сравнение:
+
+          Logistic Regression
+          Gradient Boosting Classifier
+          Hybrid Residual Model
+
+    - метрики:
+
+          ROC-AUC
+          PR-AUC
+          recall
+          specificity
+          F1
+          false_negative_rate
+          TP / FP / TN / FN
+
+Результат на текущем split:
+
+    Best alpha by CV PR-AUC: 0.4
+
+    Logistic Regression:
+        PR-AUC = 0.468
+        recall = 0.55
+        FNR    = 0.45
+
+    Hybrid alpha=0.4:
+        PR-AUC = 0.456
+        recall = 0.40
+        FNR    = 0.60
+
+Вывод:
+
+    Гибридная схема на текущем split не улучшила чувствительность и FNR.
+    Это не провал, а нормальный научный результат: на малом несбалансированном
+    медицинском датасете простая интерпретируемая модель может быть устойчивее.
+
+
+2. nhanes_orthokeratology_overview.ipynb
+----------------------------------------
+
+Notebook для первого знакомства с NHANES и Orthokeratology.
+
+Содержит:
+
+    - список файлов в datasets/nhanes;
+    - список файлов в datasets/Orthokeratology  0.01 Atropine;
+    - чтение NHANES .xpt через pd.read_sas;
+    - обзор размеров таблиц;
+    - пример объединения NHANES по SEQN;
+    - фильтр подростков 12-19 лет;
+    - чтение Excel Orthokeratology;
+    - показ raw-структуры Excel;
+    - очистку сложной шапки Excel в обычные колонки;
+    - заметки, как дальше работать с обоими наборами данных.
+
+
+Методы машинного обучения
+=========================
+
+Для текущего OLSM-датасета предпочтительнее классические ML-методы:
+
+    Logistic Regression
+    Random Forest
+    Gradient Boosting
+    HistGradientBoosting
+    SVM
+    CatBoost / XGBoost / LightGBM
+    calibration
+    SHAP / permutation importance
+    cross-validation
+
+Причина:
+
+    Данных мало:
+
+        618 строк
+        18 признаков
+        около 13% положительного класса
+
+    TensorFlow/PyTorch для такой таблицы, скорее всего, будут избыточны
+    и легко переобучатся.
+
+Deep learning имеет смысл, если подключать:
+
+    - изображения глазного дна;
+    - OCT;
+    - большие longitudinal данные;
+    - мультимодальную модель: таблицы + изображения.
+
+
+Mendelian randomization
+=======================
+
+Идея:
+
+    Добавить отдельный causal-блок через двухвыборочную менделевскую
+    рандомизацию на открытых GWAS summary statistics.
+
+Важно:
+
+    MR напрямую не применяется к текущим CSV, потому что там нет генотипов.
+    Нужны GWAS summary statistics:
+
+        SNP -> exposure
+        SNP -> outcome
+
+Потенциальные вопросы:
+
+    education -> myopia / refractive error
+    time outdoors -> myopia
+    screen time / computer use -> myopia
+    sleep duration -> myopia
+    physical activity -> myopia
+    sedentary behaviour -> myopia
+    vitamin D -> myopia
+    BMI -> myopia
+
+Источники GWAS:
+
+    OpenGWAS
+    GWAS Catalog
+    FinnGen
+
+Потенциальный outcome:
+
+    FinnGen myopia:
+        finngen_R9_H7_MYOPIA
+
+Потенциальные exposures:
+
+    educational attainment
+    time spent outdoors
+    time spent using computer
+    sleep duration
+    physical activity
+    sedentary behaviour
+    vitamin D
+    BMI
+
+Роль MR в диссертации:
+
+    Не главный метод, а дополнительная причинно-ориентированная проверка:
+
+        ML-модели показывают ассоциации и прогнозируют риск.
+        MR помогает проверить, есть ли причинная поддержка у части
+        профилактических факторов.
+
+Ограничения MR:
+
+    - GWAS часто взрослые, а тема про детей;
+    - lifestyle traits могут иметь слабые genetic instruments;
+    - возможна pleiotropy;
+    - нужно проверять heterogeneity;
+    - MR работает на уровне популяции, а не индивидуального ребенка;
+    - MR не равен прямой оценке конкретной профилактической программы.
+
+
+Общая структура доказательной базы
+==================================
+
+Предлагаемая логика:
+
+    1. OLSM / myopia.csv
+       Индивидуальный прогноз риска развития миопии.
+
+    2. NHANES
+       Внешняя популяционная проверка факторов риска.
+
+    3. Orthokeratology + Atropine
+       Анализ контроля прогрессирования / эффективности вмешательства.
+
+    4. Physical activity / sleep / screen / near work PDFs
+       Литературное и профилактическое обоснование.
+
+    5. Mendelian randomization
+       Причинная проверка части факторов риска через GWAS.
+
+    6. Image datasets
+       Optional computer vision модуль или перспектива расширения.
+
+
+Возможная формулировка вклада
+=============================
+
+    Разработана воспроизводимая информационно-аналитическая методика
+    для стратификации риска и поддержки профилактики миопии у детей
+    с использованием открытых медицинских данных, машинного обучения,
+    интерпретируемого анализа факторов риска и причинно-ориентированной
+    проверки профилактических факторов.
+
+
+Сильные стороны работы
+======================
+
+    - не один Kaggle-классификатор;
+    - несколько открытых источников данных;
+    - ML + медицинская интерпретация;
+    - акцент на recall/FNR, а не только accuracy;
+    - есть блок эффективности вмешательства;
+    - можно добавить causal-блок через MR;
+    - можно показать расширение на computer vision.
+
+
+Риски и ограничения
+===================
+
+Нужно честно описать:
+
+    - малый размер OLSM;
+    - дисбаланс классов;
+    - не все данные longitudinal;
+    - не все данные детские;
+    - нет единого датасета, где есть все признаки, вмешательства и исходы;
+    - MR часто основана на adult GWAS;
+    - MR не дает индивидуальный прогноз;
+    - переносимость моделей между популяциями ограничена;
+    - сложные модели не обязательно лучше логистической регрессии на малых данных.
+
+
+Что делать дальше
+=================
+
+Ближайшие шаги:
+
+    1. Довести sss.ipynb до чистого ML-эксперимента:
+       - cross-validation;
+       - calibration;
+       - threshold tuning;
+       - SHAP/permutation importance;
+       - стабильные таблицы результатов.
+
+    2. Сделать отдельный NHANES notebook:
+       - выбрать vision variables;
+       - определить outcome myopia/refractive error;
+       - ограничить возраст 12-19;
+       - присоединить DEMO/BMX/DR1TOT/PAQ;
+       - построить популяционный анализ.
+
+    3. Сделать отдельный Orthokeratology notebook:
+       - выбрать outcome axial elongation;
+       - решить единицу анализа: глаз или ребенок;
+       - оценить связь baseline-признаков и compliance с прогрессированием;
+       - построить модель изменения axial length.
+
+    4. Сформулировать профилактические сценарии:
+       - меньше near work;
+       - больше outdoor/physical activity;
+       - screen time;
+       - sleep;
+       - риск до/после изменения факторов.
+
+    5. Найти GWAS summary statistics для MR:
+       - OpenGWAS;
+       - GWAS Catalog;
+       - FinnGen;
+       - начать с education/time outdoors -> myopia.
+
+    6. Решить, нужен ли computer vision блок:
+       - если да, скачать/распаковать изображения;
+       - если нет, оставить как перспективу расширения.
+
