@@ -238,9 +238,9 @@ STYLE = {"SALF-Hybrid": ("#C0392B", "o"), "SALF-Hybrid λ=1e-3": ("#8E44AD", "h"
          "OLS+shift": ("#7F8C8D", "D"), "GBM+shift": ("#34495E", "P")}
 
 
-def plot(summary):
+def plot(summary, fname="salf_benchmark.png"):
     dss = summary["dataset"].unique()
-    fig, axes = plt.subplots(2, len(dss), figsize=(6.2 * len(dss), 10))
+    fig, axes = plt.subplots(2, len(dss), figsize=(6.2 * len(dss), 10), squeeze=False)
     for j, ds in enumerate(dss):
         s = summary[summary.dataset == ds]
         ax1, ax2 = axes[0, j], axes[1, j]
@@ -258,7 +258,7 @@ def plot(summary):
         ax1.grid(alpha=.3); ax2.grid(alpha=.3)
     axes[0, 0].legend(fontsize=8); axes[1, 0].legend(fontsize=8)
     fig.tight_layout()
-    fig.savefig(OUT / "salf_benchmark.png", dpi=150)
+    fig.savefig(OUT / fname, dpi=150)
     plt.close(fig)
 
 

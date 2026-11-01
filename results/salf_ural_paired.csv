@@ -1,0 +1,489 @@
+dataset,salf,tau,vs,metric,salf_minus_alt,p_nb
+Ural (axial elongation/yr),SALF-Hybrid,0.5,SALF-Linear λ=1e-3,AUC_HR,-0.037,0.0361
+Ural (axial elongation/yr),SALF-Hybrid,0.5,SALF-Linear λ=1e-3,FNR_HR,-0.0236,0.7411
+Ural (axial elongation/yr),SALF-Hybrid,0.5,SALF-Linear λ=1e-3,FPR_HR,-0.011,0.5632
+Ural (axial elongation/yr),SALF-Hybrid,0.5,SALF-Linear λ=1e-3,MAE,0.0087,0.0547
+Ural (axial elongation/yr),SALF-Hybrid,0.5,QuantReg,AUC_HR,-0.0369,0.0377
+Ural (axial elongation/yr),SALF-Hybrid,0.5,QuantReg,FNR_HR,-0.0444,0.5381
+Ural (axial elongation/yr),SALF-Hybrid,0.5,QuantReg,FPR_HR,-0.0061,0.7484
+Ural (axial elongation/yr),SALF-Hybrid,0.5,QuantReg,MAE,0.0088,0.0533
+Ural (axial elongation/yr),SALF-Hybrid,0.5,GBM-Quantile,AUC_HR,-0.0251,0.1016
+Ural (axial elongation/yr),SALF-Hybrid,0.5,GBM-Quantile,FNR_HR,0.1806,0.0175
+Ural (axial elongation/yr),SALF-Hybrid,0.5,GBM-Quantile,FPR_HR,-0.0329,0.0863
+Ural (axial elongation/yr),SALF-Hybrid,0.5,GBM-Quantile,MAE,0.0111,0.01
+Ural (axial elongation/yr),SALF-Hybrid,0.5,OLS+shift,AUC_HR,-0.0373,0.0332
+Ural (axial elongation/yr),SALF-Hybrid,0.5,OLS+shift,FNR_HR,0.1019,0.2281
+Ural (axial elongation/yr),SALF-Hybrid,0.5,OLS+shift,FPR_HR,-0.0287,0.147
+Ural (axial elongation/yr),SALF-Hybrid,0.5,OLS+shift,MAE,0.0082,0.0729
+Ural (axial elongation/yr),SALF-Hybrid,0.5,GBM+shift,AUC_HR,-0.0166,0.2555
+Ural (axial elongation/yr),SALF-Hybrid,0.5,GBM+shift,FNR_HR,0.1897,0.0188
+Ural (axial elongation/yr),SALF-Hybrid,0.5,GBM+shift,FPR_HR,-0.0426,0.0361
+Ural (axial elongation/yr),SALF-Hybrid,0.5,GBM+shift,MAE,0.0091,0.0396
+Ural (axial elongation/yr),SALF-Hybrid,0.6,SALF-Linear λ=1e-3,AUC_HR,-0.0837,0.0001
+Ural (axial elongation/yr),SALF-Hybrid,0.6,SALF-Linear λ=1e-3,FNR_HR,0.1438,0.0055
+Ural (axial elongation/yr),SALF-Hybrid,0.6,SALF-Linear λ=1e-3,FPR_HR,-0.0385,0.0265
+Ural (axial elongation/yr),SALF-Hybrid,0.6,SALF-Linear λ=1e-3,MAE,0.0086,0.0044
+Ural (axial elongation/yr),SALF-Hybrid,0.6,QuantReg,AUC_HR,-0.0843,0.0001
+Ural (axial elongation/yr),SALF-Hybrid,0.6,QuantReg,FNR_HR,0.1767,0.0006
+Ural (axial elongation/yr),SALF-Hybrid,0.6,QuantReg,FPR_HR,-0.0469,0.0113
+Ural (axial elongation/yr),SALF-Hybrid,0.6,QuantReg,MAE,0.008,0.0088
+Ural (axial elongation/yr),SALF-Hybrid,0.6,GBM-Quantile,AUC_HR,-0.073,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.6,GBM-Quantile,FNR_HR,0.1686,0.0004
+Ural (axial elongation/yr),SALF-Hybrid,0.6,GBM-Quantile,FPR_HR,-0.0426,0.0019
+Ural (axial elongation/yr),SALF-Hybrid,0.6,GBM-Quantile,MAE,0.0105,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.6,OLS+shift,AUC_HR,-0.0842,0.0001
+Ural (axial elongation/yr),SALF-Hybrid,0.6,OLS+shift,FNR_HR,0.2117,0.0002
+Ural (axial elongation/yr),SALF-Hybrid,0.6,OLS+shift,FPR_HR,-0.0522,0.0065
+Ural (axial elongation/yr),SALF-Hybrid,0.6,OLS+shift,MAE,0.0081,0.0096
+Ural (axial elongation/yr),SALF-Hybrid,0.6,GBM+shift,AUC_HR,-0.0636,0.0002
+Ural (axial elongation/yr),SALF-Hybrid,0.6,GBM+shift,FNR_HR,0.1594,0.0011
+Ural (axial elongation/yr),SALF-Hybrid,0.6,GBM+shift,FPR_HR,-0.0472,0.0008
+Ural (axial elongation/yr),SALF-Hybrid,0.6,GBM+shift,MAE,0.0089,0.0006
+Ural (axial elongation/yr),SALF-Hybrid,0.7,SALF-Linear λ=1e-3,AUC_HR,-0.1467,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.7,SALF-Linear λ=1e-3,FNR_HR,0.3286,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.7,SALF-Linear λ=1e-3,FPR_HR,-0.142,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.7,SALF-Linear λ=1e-3,MAE,0.0164,0.0001
+Ural (axial elongation/yr),SALF-Hybrid,0.7,QuantReg,AUC_HR,-0.144,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.7,QuantReg,FNR_HR,0.3717,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.7,QuantReg,FPR_HR,-0.1956,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.7,QuantReg,MAE,0.0106,0.008
+Ural (axial elongation/yr),SALF-Hybrid,0.7,GBM-Quantile,AUC_HR,-0.1361,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.7,GBM-Quantile,FNR_HR,0.209,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.7,GBM-Quantile,FPR_HR,-0.088,0.0001
+Ural (axial elongation/yr),SALF-Hybrid,0.7,GBM-Quantile,MAE,0.0156,0.0001
+Ural (axial elongation/yr),SALF-Hybrid,0.7,OLS+shift,AUC_HR,-0.1477,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.7,OLS+shift,FNR_HR,0.3517,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.7,OLS+shift,FPR_HR,-0.1926,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.7,OLS+shift,MAE,0.0118,0.0023
+Ural (axial elongation/yr),SALF-Hybrid,0.7,GBM+shift,AUC_HR,-0.127,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.7,GBM+shift,FNR_HR,0.1669,0.0001
+Ural (axial elongation/yr),SALF-Hybrid,0.7,GBM+shift,FPR_HR,-0.0685,0.0001
+Ural (axial elongation/yr),SALF-Hybrid,0.7,GBM+shift,MAE,0.0171,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,SALF-Linear λ=1e-3,AUC_HR,-0.1659,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,SALF-Linear λ=1e-3,FNR_HR,0.3266,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,SALF-Linear λ=1e-3,FPR_HR,-0.2117,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,SALF-Linear λ=1e-3,MAE,0.0207,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,QuantReg,AUC_HR,-0.1658,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,QuantReg,FNR_HR,0.3685,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,QuantReg,FPR_HR,-0.2901,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,QuantReg,MAE,0.013,0.0048
+Ural (axial elongation/yr),SALF-Hybrid,0.75,GBM-Quantile,AUC_HR,-0.1506,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,GBM-Quantile,FNR_HR,0.2608,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,GBM-Quantile,FPR_HR,-0.1836,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,GBM-Quantile,MAE,0.0165,0.0002
+Ural (axial elongation/yr),SALF-Hybrid,0.75,OLS+shift,AUC_HR,-0.167,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,OLS+shift,FNR_HR,0.3651,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,OLS+shift,FPR_HR,-0.2712,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,OLS+shift,MAE,0.0142,0.0006
+Ural (axial elongation/yr),SALF-Hybrid,0.75,GBM+shift,AUC_HR,-0.1463,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,GBM+shift,FNR_HR,0.1838,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,GBM+shift,FPR_HR,-0.1091,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,GBM+shift,MAE,0.0204,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.8,SALF-Linear λ=1e-3,AUC_HR,-0.0427,0.1388
+Ural (axial elongation/yr),SALF-Hybrid,0.8,SALF-Linear λ=1e-3,FNR_HR,0.16,0.0005
+Ural (axial elongation/yr),SALF-Hybrid,0.8,SALF-Linear λ=1e-3,FPR_HR,-0.1112,0.0602
+Ural (axial elongation/yr),SALF-Hybrid,0.8,SALF-Linear λ=1e-3,MAE,-0.0004,0.9356
+Ural (axial elongation/yr),SALF-Hybrid,0.8,QuantReg,AUC_HR,-0.0433,0.1326
+Ural (axial elongation/yr),SALF-Hybrid,0.8,QuantReg,FNR_HR,0.2146,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.8,QuantReg,FPR_HR,-0.1787,0.0023
+Ural (axial elongation/yr),SALF-Hybrid,0.8,QuantReg,MAE,-0.0106,0.0425
+Ural (axial elongation/yr),SALF-Hybrid,0.8,GBM-Quantile,AUC_HR,-0.0211,0.4234
+Ural (axial elongation/yr),SALF-Hybrid,0.8,GBM-Quantile,FNR_HR,0.1443,0.0017
+Ural (axial elongation/yr),SALF-Hybrid,0.8,GBM-Quantile,FPR_HR,-0.1116,0.0326
+Ural (axial elongation/yr),SALF-Hybrid,0.8,GBM-Quantile,MAE,-0.0086,0.0689
+Ural (axial elongation/yr),SALF-Hybrid,0.8,OLS+shift,AUC_HR,-0.0438,0.1275
+Ural (axial elongation/yr),SALF-Hybrid,0.8,OLS+shift,FNR_HR,0.2052,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.8,OLS+shift,FPR_HR,-0.1587,0.0074
+Ural (axial elongation/yr),SALF-Hybrid,0.8,OLS+shift,MAE,-0.0062,0.1851
+Ural (axial elongation/yr),SALF-Hybrid,0.8,GBM+shift,AUC_HR,-0.0231,0.3699
+Ural (axial elongation/yr),SALF-Hybrid,0.8,GBM+shift,FNR_HR,0.0522,0.1971
+Ural (axial elongation/yr),SALF-Hybrid,0.8,GBM+shift,FPR_HR,-0.0211,0.6952
+Ural (axial elongation/yr),SALF-Hybrid,0.8,GBM+shift,MAE,-0.003,0.5073
+Ural (axial elongation/yr),SALF-Hybrid,0.9,SALF-Linear λ=1e-3,AUC_HR,-0.0637,0.0269
+Ural (axial elongation/yr),SALF-Hybrid,0.9,SALF-Linear λ=1e-3,FNR_HR,0.0653,0.0823
+Ural (axial elongation/yr),SALF-Hybrid,0.9,SALF-Linear λ=1e-3,FPR_HR,-0.0094,0.894
+Ural (axial elongation/yr),SALF-Hybrid,0.9,SALF-Linear λ=1e-3,MAE,0.0017,0.8313
+Ural (axial elongation/yr),SALF-Hybrid,0.9,QuantReg,AUC_HR,-0.0636,0.0268
+Ural (axial elongation/yr),SALF-Hybrid,0.9,QuantReg,FNR_HR,0.0878,0.0237
+Ural (axial elongation/yr),SALF-Hybrid,0.9,QuantReg,FPR_HR,-0.073,0.2794
+Ural (axial elongation/yr),SALF-Hybrid,0.9,QuantReg,MAE,-0.0182,0.0303
+Ural (axial elongation/yr),SALF-Hybrid,0.9,GBM-Quantile,AUC_HR,-0.0407,0.2023
+Ural (axial elongation/yr),SALF-Hybrid,0.9,GBM-Quantile,FNR_HR,0.0544,0.1558
+Ural (axial elongation/yr),SALF-Hybrid,0.9,GBM-Quantile,FPR_HR,-0.0324,0.6479
+Ural (axial elongation/yr),SALF-Hybrid,0.9,GBM-Quantile,MAE,-0.0129,0.1187
+Ural (axial elongation/yr),SALF-Hybrid,0.9,OLS+shift,AUC_HR,-0.064,0.0242
+Ural (axial elongation/yr),SALF-Hybrid,0.9,OLS+shift,FNR_HR,0.1043,0.0123
+Ural (axial elongation/yr),SALF-Hybrid,0.9,OLS+shift,FPR_HR,-0.1543,0.0217
+Ural (axial elongation/yr),SALF-Hybrid,0.9,OLS+shift,MAE,-0.0233,0.0051
+Ural (axial elongation/yr),SALF-Hybrid,0.9,GBM+shift,AUC_HR,-0.0433,0.1801
+Ural (axial elongation/yr),SALF-Hybrid,0.9,GBM+shift,FNR_HR,0.0353,0.3308
+Ural (axial elongation/yr),SALF-Hybrid,0.9,GBM+shift,FPR_HR,0.0048,0.9454
+Ural (axial elongation/yr),SALF-Hybrid,0.9,GBM+shift,MAE,-0.0026,0.7341
+Ural (axial elongation/yr),SALF-Hybrid,0.75,OLS,AUC_HR,-0.167,0.0
+Ural (axial elongation/yr),SALF-Hybrid,0.75,GBM,AUC_HR,-0.1463,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,SALF-Linear λ=1e-3,AUC_HR,-0.0117,0.2516
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,SALF-Linear λ=1e-3,FNR_HR,-0.1733,0.0002
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,SALF-Linear λ=1e-3,FPR_HR,0.0274,0.0718
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,SALF-Linear λ=1e-3,MAE,-0.0001,0.955
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,QuantReg,AUC_HR,-0.0116,0.2877
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,QuantReg,FNR_HR,-0.1941,0.0002
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,QuantReg,FPR_HR,0.0323,0.0439
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,QuantReg,MAE,-0.0,0.9941
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,GBM-Quantile,AUC_HR,0.0002,0.9783
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,GBM-Quantile,FNR_HR,0.0309,0.32
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,GBM-Quantile,FPR_HR,0.0055,0.6219
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,GBM-Quantile,MAE,0.0023,0.2103
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,OLS+shift,AUC_HR,-0.012,0.2519
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,OLS+shift,FNR_HR,-0.0478,0.2719
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,OLS+shift,FPR_HR,0.0097,0.4677
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,OLS+shift,MAE,-0.0006,0.6757
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,GBM+shift,AUC_HR,0.0087,0.2705
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,GBM+shift,FNR_HR,0.04,0.2737
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,GBM+shift,FPR_HR,-0.0042,0.7029
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.5,GBM+shift,MAE,0.0003,0.8527
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,SALF-Linear λ=1e-3,AUC_HR,-0.0164,0.1662
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,SALF-Linear λ=1e-3,FNR_HR,-0.04,0.3393
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,SALF-Linear λ=1e-3,FPR_HR,0.0145,0.2412
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,SALF-Linear λ=1e-3,MAE,0.0005,0.7769
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,QuantReg,AUC_HR,-0.017,0.1474
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,QuantReg,FNR_HR,-0.0071,0.857
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,QuantReg,FPR_HR,0.0061,0.6364
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,QuantReg,MAE,-0.0001,0.9416
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,GBM-Quantile,AUC_HR,-0.0057,0.5607
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,GBM-Quantile,FNR_HR,-0.0152,0.5423
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,GBM-Quantile,FPR_HR,0.0104,0.4418
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,GBM-Quantile,MAE,0.0023,0.1568
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,OLS+shift,AUC_HR,-0.0169,0.1635
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,OLS+shift,FNR_HR,0.0279,0.4761
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,OLS+shift,FPR_HR,0.0008,0.9459
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,OLS+shift,MAE,-0.0001,0.9501
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,GBM+shift,AUC_HR,0.0038,0.625
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,GBM+shift,FNR_HR,-0.0245,0.38
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,GBM+shift,FPR_HR,0.0058,0.6033
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.6,GBM+shift,MAE,0.0007,0.6342
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,SALF-Linear λ=1e-3,AUC_HR,-0.0109,0.294
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,SALF-Linear λ=1e-3,FNR_HR,0.0921,0.0242
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,SALF-Linear λ=1e-3,FPR_HR,-0.0451,0.0115
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,SALF-Linear λ=1e-3,MAE,-0.0023,0.1816
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,QuantReg,AUC_HR,-0.0082,0.4422
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,QuantReg,FNR_HR,0.1352,0.001
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,QuantReg,FPR_HR,-0.0988,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,QuantReg,MAE,-0.0081,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,GBM-Quantile,AUC_HR,-0.0003,0.9737
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,GBM-Quantile,FNR_HR,-0.0275,0.457
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,GBM-Quantile,FPR_HR,0.0088,0.5533
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,GBM-Quantile,MAE,-0.0031,0.0568
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,OLS+shift,AUC_HR,-0.0119,0.2488
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,OLS+shift,FNR_HR,0.1152,0.0056
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,OLS+shift,FPR_HR,-0.0958,0.0001
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,OLS+shift,MAE,-0.0069,0.0006
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,GBM+shift,AUC_HR,0.0088,0.3749
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,GBM+shift,FNR_HR,-0.0696,0.0731
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,GBM+shift,FPR_HR,0.0283,0.0679
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.7,GBM+shift,MAE,-0.0016,0.3284
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,SALF-Linear λ=1e-3,AUC_HR,-0.0118,0.2001
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,SALF-Linear λ=1e-3,FNR_HR,0.0854,0.0072
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,SALF-Linear λ=1e-3,FPR_HR,-0.0789,0.0003
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,SALF-Linear λ=1e-3,MAE,-0.0031,0.0758
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,QuantReg,AUC_HR,-0.0117,0.2275
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,QuantReg,FNR_HR,0.1272,0.0001
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,QuantReg,FPR_HR,-0.1573,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,QuantReg,MAE,-0.0109,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,GBM-Quantile,AUC_HR,0.0035,0.6854
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,GBM-Quantile,FNR_HR,0.0196,0.5162
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,GBM-Quantile,FPR_HR,-0.0509,0.039
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,GBM-Quantile,MAE,-0.0073,0.0003
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,OLS+shift,AUC_HR,-0.0129,0.1902
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,OLS+shift,FNR_HR,0.1239,0.0004
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,OLS+shift,FPR_HR,-0.1384,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,OLS+shift,MAE,-0.0096,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,GBM+shift,AUC_HR,0.0078,0.3837
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,GBM+shift,FNR_HR,-0.0574,0.062
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,GBM+shift,FPR_HR,0.0237,0.2266
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,GBM+shift,MAE,-0.0034,0.0922
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,SALF-Linear λ=1e-3,AUC_HR,-0.0112,0.2666
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,SALF-Linear λ=1e-3,FNR_HR,0.087,0.0046
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,SALF-Linear λ=1e-3,FPR_HR,-0.1,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,SALF-Linear λ=1e-3,MAE,-0.0044,0.0215
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,QuantReg,AUC_HR,-0.0118,0.2192
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,QuantReg,FNR_HR,0.1416,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,QuantReg,FPR_HR,-0.1676,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,QuantReg,MAE,-0.0146,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,GBM-Quantile,AUC_HR,0.0105,0.2922
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,GBM-Quantile,FNR_HR,0.0713,0.0408
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,GBM-Quantile,FPR_HR,-0.1005,0.0004
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,GBM-Quantile,MAE,-0.0127,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,OLS+shift,AUC_HR,-0.0122,0.2522
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,OLS+shift,FNR_HR,0.1321,0.0001
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,OLS+shift,FPR_HR,-0.1476,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,OLS+shift,MAE,-0.0103,0.0001
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,GBM+shift,AUC_HR,0.0085,0.4136
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,GBM+shift,FNR_HR,-0.0208,0.3144
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,GBM+shift,FPR_HR,-0.01,0.6171
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.8,GBM+shift,MAE,-0.007,0.0135
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,SALF-Linear λ=1e-3,AUC_HR,-0.0128,0.175
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,SALF-Linear λ=1e-3,FNR_HR,0.0666,0.033
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,SALF-Linear λ=1e-3,FPR_HR,-0.1039,0.0002
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,SALF-Linear λ=1e-3,MAE,-0.0092,0.0003
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,QuantReg,AUC_HR,-0.0128,0.1626
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,QuantReg,FNR_HR,0.0891,0.0095
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,QuantReg,FPR_HR,-0.1675,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,QuantReg,MAE,-0.0291,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,GBM-Quantile,AUC_HR,0.0102,0.4976
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,GBM-Quantile,FNR_HR,0.0557,0.0906
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,GBM-Quantile,FPR_HR,-0.1268,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,GBM-Quantile,MAE,-0.0239,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,OLS+shift,AUC_HR,-0.0131,0.1858
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,OLS+shift,FNR_HR,0.1056,0.0028
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,OLS+shift,FPR_HR,-0.2487,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,OLS+shift,MAE,-0.0342,0.0
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,GBM+shift,AUC_HR,0.0075,0.5802
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,GBM+shift,FNR_HR,0.0366,0.2137
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,GBM+shift,FPR_HR,-0.0896,0.0022
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.9,GBM+shift,MAE,-0.0135,0.0003
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,OLS,AUC_HR,-0.0129,0.1902
+Ural (axial elongation/yr),SALF-Hybrid λ=1e-3,0.75,GBM,AUC_HR,0.0078,0.3837
+"Ural, без исключений",SALF-Hybrid,0.5,SALF-Linear λ=1e-3,AUC_HR,-0.1425,0.0003
+"Ural, без исключений",SALF-Hybrid,0.5,SALF-Linear λ=1e-3,FNR_HR,0.0786,0.1649
+"Ural, без исключений",SALF-Hybrid,0.5,SALF-Linear λ=1e-3,FPR_HR,-0.0224,0.2022
+"Ural, без исключений",SALF-Hybrid,0.5,SALF-Linear λ=1e-3,MAE,0.0148,0.0006
+"Ural, без исключений",SALF-Hybrid,0.5,QuantReg,AUC_HR,-0.1434,0.0002
+"Ural, без исключений",SALF-Hybrid,0.5,QuantReg,FNR_HR,0.0419,0.4418
+"Ural, без исключений",SALF-Hybrid,0.5,QuantReg,FPR_HR,-0.0157,0.3537
+"Ural, без исключений",SALF-Hybrid,0.5,QuantReg,MAE,0.0149,0.0003
+"Ural, без исключений",SALF-Hybrid,0.5,GBM-Quantile,AUC_HR,-0.1322,0.0004
+"Ural, без исключений",SALF-Hybrid,0.5,GBM-Quantile,FNR_HR,0.2609,0.0
+"Ural, без исключений",SALF-Hybrid,0.5,GBM-Quantile,FPR_HR,-0.04,0.0452
+"Ural, без исключений",SALF-Hybrid,0.5,GBM-Quantile,MAE,0.0163,0.0003
+"Ural, без исключений",SALF-Hybrid,0.5,OLS+shift,AUC_HR,-0.1414,0.0004
+"Ural, без исключений",SALF-Hybrid,0.5,OLS+shift,FNR_HR,0.1545,0.0045
+"Ural, без исключений",SALF-Hybrid,0.5,OLS+shift,FPR_HR,-0.035,0.0526
+"Ural, без исключений",SALF-Hybrid,0.5,OLS+shift,MAE,0.0144,0.0019
+"Ural, без исключений",SALF-Hybrid,0.5,GBM+shift,AUC_HR,-0.1173,0.0007
+"Ural, без исключений",SALF-Hybrid,0.5,GBM+shift,FNR_HR,0.272,0.0
+"Ural, без исключений",SALF-Hybrid,0.5,GBM+shift,FPR_HR,-0.0524,0.0031
+"Ural, без исключений",SALF-Hybrid,0.5,GBM+shift,MAE,0.013,0.0013
+"Ural, без исключений",SALF-Hybrid,0.6,SALF-Linear λ=1e-3,AUC_HR,-0.0927,0.0001
+"Ural, без исключений",SALF-Hybrid,0.6,SALF-Linear λ=1e-3,FNR_HR,0.1866,0.0014
+"Ural, без исключений",SALF-Hybrid,0.6,SALF-Linear λ=1e-3,FPR_HR,-0.0407,0.0237
+"Ural, без исключений",SALF-Hybrid,0.6,SALF-Linear λ=1e-3,MAE,0.0107,0.0035
+"Ural, без исключений",SALF-Hybrid,0.6,QuantReg,AUC_HR,-0.0931,0.0001
+"Ural, без исключений",SALF-Hybrid,0.6,QuantReg,FNR_HR,0.2184,0.0003
+"Ural, без исключений",SALF-Hybrid,0.6,QuantReg,FPR_HR,-0.0496,0.0051
+"Ural, без исключений",SALF-Hybrid,0.6,QuantReg,MAE,0.01,0.007
+"Ural, без исключений",SALF-Hybrid,0.6,GBM-Quantile,AUC_HR,-0.0833,0.0003
+"Ural, без исключений",SALF-Hybrid,0.6,GBM-Quantile,FNR_HR,0.1949,0.0001
+"Ural, без исключений",SALF-Hybrid,0.6,GBM-Quantile,FPR_HR,-0.0394,0.0086
+"Ural, без исключений",SALF-Hybrid,0.6,GBM-Quantile,MAE,0.0115,0.001
+"Ural, без исключений",SALF-Hybrid,0.6,OLS+shift,AUC_HR,-0.0916,0.0001
+"Ural, без исключений",SALF-Hybrid,0.6,OLS+shift,FNR_HR,0.2288,0.0001
+"Ural, без исключений",SALF-Hybrid,0.6,OLS+shift,FPR_HR,-0.0501,0.0062
+"Ural, без исключений",SALF-Hybrid,0.6,OLS+shift,MAE,0.0098,0.0095
+"Ural, без исключений",SALF-Hybrid,0.6,GBM+shift,AUC_HR,-0.0675,0.003
+"Ural, без исключений",SALF-Hybrid,0.6,GBM+shift,FNR_HR,0.19,0.0007
+"Ural, без исключений",SALF-Hybrid,0.6,GBM+shift,FPR_HR,-0.0541,0.0001
+"Ural, без исключений",SALF-Hybrid,0.6,GBM+shift,MAE,0.0081,0.0078
+"Ural, без исключений",SALF-Hybrid,0.7,SALF-Linear λ=1e-3,AUC_HR,-0.1473,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,SALF-Linear λ=1e-3,FNR_HR,0.3214,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,SALF-Linear λ=1e-3,FPR_HR,-0.1409,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,SALF-Linear λ=1e-3,MAE,0.0164,0.0013
+"Ural, без исключений",SALF-Hybrid,0.7,QuantReg,AUC_HR,-0.1434,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,QuantReg,FNR_HR,0.3564,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,QuantReg,FPR_HR,-0.1954,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,QuantReg,MAE,0.0105,0.0418
+"Ural, без исключений",SALF-Hybrid,0.7,GBM-Quantile,AUC_HR,-0.1349,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,GBM-Quantile,FNR_HR,0.2171,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,GBM-Quantile,FPR_HR,-0.0941,0.0002
+"Ural, без исключений",SALF-Hybrid,0.7,GBM-Quantile,MAE,0.0141,0.0021
+"Ural, без исключений",SALF-Hybrid,0.7,OLS+shift,AUC_HR,-0.1469,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,OLS+shift,FNR_HR,0.3385,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,OLS+shift,FPR_HR,-0.1886,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,OLS+shift,MAE,0.0116,0.0213
+"Ural, без исключений",SALF-Hybrid,0.7,GBM+shift,AUC_HR,-0.1228,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,GBM+shift,FNR_HR,0.1728,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,GBM+shift,FPR_HR,-0.0879,0.0
+"Ural, без исключений",SALF-Hybrid,0.7,GBM+shift,MAE,0.0134,0.0009
+"Ural, без исключений",SALF-Hybrid,0.75,SALF-Linear λ=1e-3,AUC_HR,-0.155,0.0001
+"Ural, без исключений",SALF-Hybrid,0.75,SALF-Linear λ=1e-3,FNR_HR,0.3184,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,SALF-Linear λ=1e-3,FPR_HR,-0.2032,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,SALF-Linear λ=1e-3,MAE,0.0206,0.0005
+"Ural, без исключений",SALF-Hybrid,0.75,QuantReg,AUC_HR,-0.1552,0.0001
+"Ural, без исключений",SALF-Hybrid,0.75,QuantReg,FNR_HR,0.3664,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,QuantReg,FPR_HR,-0.2892,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,QuantReg,MAE,0.0124,0.0364
+"Ural, без исключений",SALF-Hybrid,0.75,GBM-Quantile,AUC_HR,-0.1415,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,GBM-Quantile,FNR_HR,0.2595,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,GBM-Quantile,FPR_HR,-0.1797,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,GBM-Quantile,MAE,0.0151,0.0039
+"Ural, без исключений",SALF-Hybrid,0.75,OLS+shift,AUC_HR,-0.1548,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,OLS+shift,FNR_HR,0.3593,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,OLS+shift,FPR_HR,-0.2642,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,OLS+shift,MAE,0.0137,0.0143
+"Ural, без исключений",SALF-Hybrid,0.75,GBM+shift,AUC_HR,-0.1307,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,GBM+shift,FNR_HR,0.1994,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,GBM+shift,FPR_HR,-0.1352,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,GBM+shift,MAE,0.016,0.0006
+"Ural, без исключений",SALF-Hybrid,0.8,SALF-Linear λ=1e-3,AUC_HR,-0.0341,0.0623
+"Ural, без исключений",SALF-Hybrid,0.8,SALF-Linear λ=1e-3,FNR_HR,0.1552,0.0017
+"Ural, без исключений",SALF-Hybrid,0.8,SALF-Linear λ=1e-3,FPR_HR,-0.125,0.0075
+"Ural, без исключений",SALF-Hybrid,0.8,SALF-Linear λ=1e-3,MAE,-0.0007,0.8822
+"Ural, без исключений",SALF-Hybrid,0.8,QuantReg,AUC_HR,-0.0352,0.0555
+"Ural, без исключений",SALF-Hybrid,0.8,QuantReg,FNR_HR,0.2295,0.0001
+"Ural, без исключений",SALF-Hybrid,0.8,QuantReg,FPR_HR,-0.2037,0.0
+"Ural, без исключений",SALF-Hybrid,0.8,QuantReg,MAE,-0.0122,0.0196
+"Ural, без исключений",SALF-Hybrid,0.8,GBM-Quantile,AUC_HR,-0.0167,0.2714
+"Ural, без исключений",SALF-Hybrid,0.8,GBM-Quantile,FNR_HR,0.1607,0.0004
+"Ural, без исключений",SALF-Hybrid,0.8,GBM-Quantile,FPR_HR,-0.1346,0.0074
+"Ural, без исключений",SALF-Hybrid,0.8,GBM-Quantile,MAE,-0.0107,0.0202
+"Ural, без исключений",SALF-Hybrid,0.8,OLS+shift,AUC_HR,-0.0335,0.0569
+"Ural, без исключений",SALF-Hybrid,0.8,OLS+shift,FNR_HR,0.2154,0.0001
+"Ural, без исключений",SALF-Hybrid,0.8,OLS+shift,FPR_HR,-0.1895,0.0002
+"Ural, без исключений",SALF-Hybrid,0.8,OLS+shift,MAE,-0.0087,0.0592
+"Ural, без исключений",SALF-Hybrid,0.8,GBM+shift,AUC_HR,-0.0094,0.3644
+"Ural, без исключений",SALF-Hybrid,0.8,GBM+shift,FNR_HR,0.072,0.0601
+"Ural, без исключений",SALF-Hybrid,0.8,GBM+shift,FPR_HR,-0.0631,0.1053
+"Ural, без исключений",SALF-Hybrid,0.8,GBM+shift,MAE,-0.0075,0.0296
+"Ural, без исключений",SALF-Hybrid,0.9,SALF-Linear λ=1e-3,AUC_HR,-0.0535,0.0475
+"Ural, без исключений",SALF-Hybrid,0.9,SALF-Linear λ=1e-3,FNR_HR,0.0618,0.1276
+"Ural, без исключений",SALF-Hybrid,0.9,SALF-Linear λ=1e-3,FPR_HR,-0.0171,0.829
+"Ural, без исключений",SALF-Hybrid,0.9,SALF-Linear λ=1e-3,MAE,0.0006,0.9418
+"Ural, без исключений",SALF-Hybrid,0.9,QuantReg,AUC_HR,-0.0545,0.0418
+"Ural, без исключений",SALF-Hybrid,0.9,QuantReg,FNR_HR,0.0946,0.0224
+"Ural, без исключений",SALF-Hybrid,0.9,QuantReg,FPR_HR,-0.0951,0.2261
+"Ural, без исключений",SALF-Hybrid,0.9,QuantReg,MAE,-0.0224,0.0099
+"Ural, без исключений",SALF-Hybrid,0.9,GBM-Quantile,AUC_HR,-0.0307,0.1975
+"Ural, без исключений",SALF-Hybrid,0.9,GBM-Quantile,FNR_HR,0.0656,0.1061
+"Ural, без исключений",SALF-Hybrid,0.9,GBM-Quantile,FPR_HR,-0.0836,0.3033
+"Ural, без исключений",SALF-Hybrid,0.9,GBM-Quantile,MAE,-0.0182,0.0287
+"Ural, без исключений",SALF-Hybrid,0.9,OLS+shift,AUC_HR,-0.0527,0.0507
+"Ural, без исключений",SALF-Hybrid,0.9,OLS+shift,FNR_HR,0.1125,0.0058
+"Ural, без исключений",SALF-Hybrid,0.9,OLS+shift,FPR_HR,-0.1796,0.0228
+"Ural, без исключений",SALF-Hybrid,0.9,OLS+shift,MAE,-0.0283,0.0005
+"Ural, без исключений",SALF-Hybrid,0.9,GBM+shift,AUC_HR,-0.0286,0.2116
+"Ural, без исключений",SALF-Hybrid,0.9,GBM+shift,FNR_HR,0.0465,0.1498
+"Ural, без исключений",SALF-Hybrid,0.9,GBM+shift,FPR_HR,-0.0363,0.6504
+"Ural, без исключений",SALF-Hybrid,0.9,GBM+shift,MAE,-0.0107,0.1542
+"Ural, без исключений",SALF-Hybrid,0.75,OLS,AUC_HR,-0.1548,0.0
+"Ural, без исключений",SALF-Hybrid,0.75,GBM,AUC_HR,-0.1307,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,SALF-Linear λ=1e-3,AUC_HR,-0.0153,0.182
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,SALF-Linear λ=1e-3,FNR_HR,-0.1794,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,SALF-Linear λ=1e-3,FPR_HR,0.0306,0.0256
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,SALF-Linear λ=1e-3,MAE,0.0013,0.5393
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,QuantReg,AUC_HR,-0.0163,0.1356
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,QuantReg,FNR_HR,-0.2161,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,QuantReg,FPR_HR,0.0373,0.0142
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,QuantReg,MAE,0.0014,0.5072
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,GBM-Quantile,AUC_HR,-0.0051,0.6145
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,GBM-Quantile,FNR_HR,0.0029,0.9474
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,GBM-Quantile,FPR_HR,0.013,0.1857
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,GBM-Quantile,MAE,0.0027,0.1586
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,OLS+shift,AUC_HR,-0.0143,0.2083
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,OLS+shift,FNR_HR,-0.1035,0.0211
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,OLS+shift,FPR_HR,0.018,0.2191
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,OLS+shift,MAE,0.0009,0.6921
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,GBM+shift,AUC_HR,0.0098,0.3144
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,GBM+shift,FNR_HR,0.014,0.7417
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,GBM+shift,FPR_HR,0.0006,0.9537
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.5,GBM+shift,MAE,-0.0006,0.7406
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,SALF-Linear λ=1e-3,AUC_HR,-0.02,0.1392
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,SALF-Linear λ=1e-3,FNR_HR,-0.0198,0.6567
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,SALF-Linear λ=1e-3,FPR_HR,0.0167,0.294
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,SALF-Linear λ=1e-3,MAE,0.0017,0.4965
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,QuantReg,AUC_HR,-0.0204,0.1358
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,QuantReg,FNR_HR,0.012,0.8042
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,QuantReg,FPR_HR,0.0079,0.6139
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,QuantReg,MAE,0.001,0.694
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,GBM-Quantile,AUC_HR,-0.0106,0.3394
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,GBM-Quantile,FNR_HR,-0.0115,0.7079
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,GBM-Quantile,FPR_HR,0.018,0.2401
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,GBM-Quantile,MAE,0.0026,0.1862
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,OLS+shift,AUC_HR,-0.0189,0.1532
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,OLS+shift,FNR_HR,0.0224,0.5833
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,OLS+shift,FPR_HR,0.0074,0.6569
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,OLS+shift,MAE,0.0009,0.7417
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,GBM+shift,AUC_HR,0.0052,0.5578
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,GBM+shift,FNR_HR,-0.0165,0.5014
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,GBM+shift,FPR_HR,0.0033,0.8034
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.6,GBM+shift,MAE,-0.0008,0.5671
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,SALF-Linear λ=1e-3,AUC_HR,-0.0173,0.1136
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,SALF-Linear λ=1e-3,FNR_HR,0.0818,0.0114
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,SALF-Linear λ=1e-3,FPR_HR,-0.0294,0.1272
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,SALF-Linear λ=1e-3,MAE,-0.0002,0.943
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,QuantReg,AUC_HR,-0.0134,0.2419
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,QuantReg,FNR_HR,0.1167,0.0011
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,QuantReg,FPR_HR,-0.0838,0.0001
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,QuantReg,MAE,-0.0061,0.0261
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,GBM-Quantile,AUC_HR,-0.005,0.6354
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,GBM-Quantile,FNR_HR,-0.0226,0.4172
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,GBM-Quantile,FPR_HR,0.0174,0.4424
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,GBM-Quantile,MAE,-0.0025,0.3603
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,OLS+shift,AUC_HR,-0.017,0.1102
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,OLS+shift,FNR_HR,0.0989,0.0018
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,OLS+shift,FPR_HR,-0.0771,0.0011
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,OLS+shift,MAE,-0.005,0.0456
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,GBM+shift,AUC_HR,0.0071,0.4417
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,GBM+shift,FNR_HR,-0.0669,0.018
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,GBM+shift,FPR_HR,0.0236,0.1606
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.7,GBM+shift,MAE,-0.0032,0.1153
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,SALF-Linear λ=1e-3,AUC_HR,-0.0172,0.0878
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,SALF-Linear λ=1e-3,FNR_HR,0.0735,0.0086
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,SALF-Linear λ=1e-3,FPR_HR,-0.0558,0.0042
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,SALF-Linear λ=1e-3,MAE,-0.001,0.6644
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,QuantReg,AUC_HR,-0.0173,0.0892
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,QuantReg,FNR_HR,0.1215,0.0003
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,QuantReg,FPR_HR,-0.1418,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,QuantReg,MAE,-0.0092,0.0007
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,GBM-Quantile,AUC_HR,-0.0036,0.7611
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,GBM-Quantile,FNR_HR,0.0147,0.6436
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,GBM-Quantile,FPR_HR,-0.0323,0.1788
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,GBM-Quantile,MAE,-0.0065,0.0225
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,OLS+shift,AUC_HR,-0.017,0.0773
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,OLS+shift,FNR_HR,0.1144,0.0014
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,OLS+shift,FPR_HR,-0.1169,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,OLS+shift,MAE,-0.0079,0.0024
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,GBM+shift,AUC_HR,0.0071,0.5078
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,GBM+shift,FNR_HR,-0.0455,0.1304
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,GBM+shift,FPR_HR,0.0122,0.5036
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,GBM+shift,MAE,-0.0055,0.0233
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,SALF-Linear λ=1e-3,AUC_HR,-0.0133,0.1217
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,SALF-Linear λ=1e-3,FNR_HR,0.0843,0.002
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,SALF-Linear λ=1e-3,FPR_HR,-0.0933,0.0005
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,SALF-Linear λ=1e-3,MAE,-0.0029,0.1822
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,QuantReg,AUC_HR,-0.0144,0.0886
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,QuantReg,FNR_HR,0.1586,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,QuantReg,FPR_HR,-0.172,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,QuantReg,MAE,-0.0144,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,GBM-Quantile,AUC_HR,0.0041,0.7081
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,GBM-Quantile,FNR_HR,0.0898,0.0034
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,GBM-Quantile,FPR_HR,-0.103,0.0011
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,GBM-Quantile,MAE,-0.0129,0.0001
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,OLS+shift,AUC_HR,-0.0127,0.1548
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,OLS+shift,FNR_HR,0.1445,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,OLS+shift,FPR_HR,-0.1579,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,OLS+shift,MAE,-0.0109,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,GBM+shift,AUC_HR,0.0114,0.3197
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,GBM+shift,FNR_HR,0.0011,0.969
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,GBM+shift,FPR_HR,-0.0315,0.2911
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.8,GBM+shift,MAE,-0.0097,0.0035
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,SALF-Linear λ=1e-3,AUC_HR,-0.017,0.1021
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,SALF-Linear λ=1e-3,FNR_HR,0.0767,0.017
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,SALF-Linear λ=1e-3,FPR_HR,-0.1081,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,SALF-Linear λ=1e-3,MAE,-0.0062,0.0443
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,QuantReg,AUC_HR,-0.018,0.0902
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,QuantReg,FNR_HR,0.1095,0.0033
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,QuantReg,FPR_HR,-0.1861,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,QuantReg,MAE,-0.0292,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,GBM-Quantile,AUC_HR,0.0058,0.6541
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,GBM-Quantile,FNR_HR,0.0805,0.0117
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,GBM-Quantile,FPR_HR,-0.1747,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,GBM-Quantile,MAE,-0.025,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,OLS+shift,AUC_HR,-0.0162,0.1613
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,OLS+shift,FNR_HR,0.1274,0.0007
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,OLS+shift,FPR_HR,-0.2706,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,OLS+shift,MAE,-0.035,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,GBM+shift,AUC_HR,0.0078,0.5903
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,GBM+shift,FNR_HR,0.0614,0.0487
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,GBM+shift,FPR_HR,-0.1274,0.0006
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.9,GBM+shift,MAE,-0.0174,0.0
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,OLS,AUC_HR,-0.017,0.0773
+"Ural, без исключений",SALF-Hybrid λ=1e-3,0.75,GBM,AUC_HR,0.0071,0.5078
